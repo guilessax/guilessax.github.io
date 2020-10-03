@@ -1,0 +1,56 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.headerMaeztra {
+    background: #353535;
+    height: 24px;
+    color: #ffffff;
+    padding-top: 12px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.headerBusca {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+#divBusca {
+    text-align: center;
+    display: inline;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 0 15px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #353535;
+}
+
+.headerMenu {
+    border: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+    height: 48px;
+}
+
+h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    color: #353535;
+}
+
+.marcasParceiras {
+    display: flex;
+    justify-content: center;
+}
