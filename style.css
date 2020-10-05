@@ -12,33 +12,88 @@ body {
 }
 
 .headerBusca {
+    background-color: #ffffff;
+    width: 1920px;
+    height: 88px;
+    max-height: 100%;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+.searchTxt {
+    height: 40px;
+    width: 791px;
+    text-align: center;
     display: flex;
     justify-content: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
-}
-
-#divBusca {
-    text-align: center;
-    display: inline;
     background: #FFFFFF;
+    border: none;
+    border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+    position: absolute;
 }
 
-nav {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0 0 0 15px;
+.enviar {
+    width: 119px;
+    height: 40px;
+    background: orange;
+    color: #ffffff;
     font-size: 14px;
     line-height: 21px;
-    color: #353535;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    right: 0;
 }
 
 .headerMenu {
-    border: 0px;
     display: flex;
     justify-content: space-around;
-    padding-top: 12px;
+    width: 1920px;
     height: 48px;
+    left: 0px;
+    top: 112px;
+    background-color: #ffffff;
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner {
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.titulo {
+    justify-content: center;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.box {
+    border: 1px;
+    width: 100%;
+}
+
+.boxTexto {
+    background: #EFEFEF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
 }
 
 h1 {
@@ -50,7 +105,59 @@ h1 {
     color: #353535;
 }
 
+.maisPedidas {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    color: #353535;
+}
+
 .marcasParceiras {
     display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.banner2 {
+    background: #EFEFEF;
+    width: 1598px;
+    height: 480px;
+    display: flex;
     justify-content: center;
+}
+
+.lorem {
+    display: flex;
+    justify-self: flex-end;
+    position: relative;
+    font-size: 32px;
+    line-height: 49px;
+    color: #353535;
+}
+
+.novaColecao {
+    width: 1114px;
+    height: 684px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ipsum {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.footer {
+    background: #353535;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#facebook {
+    position: relative;
 }
